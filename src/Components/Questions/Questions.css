@@ -1,0 +1,175 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  .questionContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .questions {
+    width: 75%;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .scoreboard {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+  }
+  .questions h3 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+  }
+  
+  .startAnime {
+    animation: anime 30s;
+  }
+  .options {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 25px;
+    border: 5px solid #34ebcf;
+    border-radius: 10px;
+    width: 34%;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .buttons {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-around;
+    margin-top: 30px;
+  }
+  .name {
+    color: white;
+    text-align: center;
+    padding-top: 8%;
+  }
+  
+  .green {
+    background-color: rgb(97, 178, 47);
+  }
+  .spin {
+    margin-left: 48%;
+    width: 80px;
+    height: 60px;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%); */
+  }
+  .error {
+    background-color: red;
+  }
+  button:disabled {
+    color: white;
+  }
+  .nextCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .next,
+  .home {
+    border: 5px solid #42f5a7;
+    border-radius: 10px;
+    padding: 12px 30px;
+    margin-top: 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .home {
+    position: absolute;
+    top: 12%;
+    left: 12%;
+  }
+  .nextIcon {
+    margin-left: 5px;
+    color: white;
+  }
+  .icon {
+    color: white;
+    margin-left: 5px;
+  }
+  @media screen and (max-width: 450px) {
+    .questions {
+      top: 55%;
+    }
+    .buttons {
+      margin-top: 10px;
+    }
+    .questions h3 {
+      font-size: 15px;
+    }
+    .options {
+      font-size: 12px;
+      width: 80%;
+      margin-top: 5px;
+    }
+    .next,
+    .home {
+      font-size: 14px;
+      padding: 8px 30px;
+    }
+  
+    .scoreboard {
+      top: 15%;
+      font-size: 12px;
+    }
+    .name {
+      font-size: 22px;
+    }
+    .spin {
+      margin-left: 40%;
+    }
+  }
+  /* @media screen and (max-width: 750px) {
+    .questions {
+      top: 55%;
+    }
+    .buttons {
+      margin-top: 10px;
+    }
+    .questions h3 {
+      font-size: 20px;
+    }
+    .options {
+      font-size: 16px;
+      width: 80%;
+      margin-top: 5px;
+    }
+    .next,
+    .home {
+      font-size: 16px;
+      padding: 8px 30px;
+    }
+  
+    .scoreboard {
+      top: 15%;
+      font-size: 16px;
+    }
+    .name {
+      font-size: 25px;
+    }
+    .spin {
+      margin-left: 45%;
+    }
+  } */
+  
